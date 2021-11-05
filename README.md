@@ -1,18 +1,29 @@
-### Hi there 👋
+# Welcome to my Github profile
 
-<!--
-**GreccoOliva-Franco/GreccoOliva-Franco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+### About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```js
+import { Dev } from "myCv.js";
 
-[![Franco's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreccoOliva-Franco&count_private=true&show_icons=true&theme=monokai)](https://github.com/anuraghazra/github-readme-stats)
+const me = new Dev({
+  fullname: "Grecco Oliva, Franco",
+  education: [ "Mechanical engineer", "Full Stack Trainee / Jr", "Cloud DevOps" ],
+  code: {
+    front: [ "HTML", "CSS", "JavaScript", "React" ],
+    back: [ "NodeJS", "Python", "Matlab" ],
+    database: [ "MongoDB", "MySQL" ]
+  },
+  residence: "Argentina",
+  contact: { mail: "srgrecco93@gmail.com" }
+})
+```
+
+<br>
+
+### This are my Github stats
+
+[![Franco's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreccoOliva-Franco&count_private=true&show_icons=true&theme=monokai&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
+
+This stats are provided by [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats#github-stats-card)
