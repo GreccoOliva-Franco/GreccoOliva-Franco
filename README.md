@@ -12,8 +12,9 @@ const me = new Dev({
   education: [ "Mechanical engineer", "Full Stack Trainee / Jr", "Cloud DevOps" ],
   code: {
     front: [ "HTML", "CSS", "JavaScript", "React" ],
-    back: [ "NodeJS", "Python", "Matlab" ],
-    database: [ "MongoDB", "MySQL" ]
+    back: [ "NodeJS", "Python" ],
+    database: [ "MongoDB", "MySQL" ],
+    dataAnalysis: [ "Python", "Matlab" ]
   },
   residence: "Argentina",
   contact: { mail: "srgrecco93@gmail.com" }
@@ -22,7 +23,7 @@ const me = new Dev({
 
 <br>
 
-### This are my Github stats
+### Github stats
 
 [![Franco's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreccoOliva-Franco&count_private=true&show_icons=true&theme=monokai&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
 
