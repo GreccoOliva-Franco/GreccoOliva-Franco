@@ -14,7 +14,7 @@ const me = new Dev({
     database: [ "MongoDB", "MySQL" ],
     dataAnalysis: [ "Python", "Matlab" ]
   },
-  tools: [ "TypeScript", "Git", "Github", "Docker", "Kubernetes", "AWS", "StarUML" ],
+  tools: [ "TypeScript", "Git", "Github", "Docker", "Kubernetes", "AWS", "StarUML", "Postman", "DBeaver" ],
   residence: "Argentina",
   contact: { mail: "srgrecco93@gmail.com" }
 })
