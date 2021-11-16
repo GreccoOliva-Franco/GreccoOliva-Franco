@@ -14,7 +14,7 @@ const me = new Dev({
     database: [ "MongoDB", "MySQL" ],
     dataAnalysis: [ "Python", "Matlab" ]
   },
-  tools: [ "TypeScript", "Git", "Github", "Docker", "Kubernetes", "AWS" ],
+  tools: [ "TypeScript", "Git", "Github", "Docker", "Kubernetes", "AWS", "StarUML" ],
   residence: "Argentina",
   contact: { mail: "srgrecco93@gmail.com" }
 })
@@ -26,4 +26,4 @@ const me = new Dev({
 
 [![Franco's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreccoOliva-Franco&count_private=true&show_icons=true&theme=monokai&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
 
-This stats are provided by [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats#github-stats-card)
+These stats are provided by [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats#github-stats-card)
