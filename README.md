@@ -10,7 +10,7 @@ const me = new Dev({
   education: [ "Mechanical engineer", "Full Stack Trainee / Jr", "Cloud DevOps" ],
   code: {
     front: [ "HTML", "CSS", "JavaScript", "React" ],
-    back: [ "NodeJS"],
+    back: [ "NodeJS" ],
     database: [ "MongoDB", "MySQL" ],
     dataAnalysis: [ "Python", "Matlab" ]
   },
