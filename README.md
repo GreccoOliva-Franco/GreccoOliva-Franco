@@ -3,22 +3,38 @@
 ### About me
 
 ```js
-import { Dev } from "myCv.js";
+import { DEFAULT_LANGUAGE, LANGUAGES } from "src/constants/index.ts"
+import { Dev } from "src/dev/index.ts";
 
-const me = new Dev({
+const me: Dev = new Dev({
   fullname: "Grecco Oliva, Franco",
-  education: [ "Mechanical engineer", "Full Stack Trainee / Jr", "Cloud DevOps" ],
+  education: [ "Mechanical engineer", "Full Stack (Jr)", "Cloud DevOps (Trainee)" ],
   code: {
-    front: [ "HTML", "CSS", "JavaScript", "React" ],
-    back: [ "NodeJS" ],
+    front: [ "HTML", "CSS", "JavaScript", { framework: "React" } ],
+    back: [ "NodeJS", { framework: "NestJs (express)" } ],
     database: [ "MongoDB", "MySQL" ],
-    dataAnalysis: [ "Python", "Matlab" ]
+    dataAnalysis: [ "Python", "Matlab" ],
   },
-  tools: [ "TypeScript", "Git", "Github" ],
-  soonToLearn: [ "Docker", "Kubernetes", "Terraform", "Jenkins" ],
+  tools: [ "TypeScript", "Git", "Github", "Postman" ],
+  teamworkTools: [ "Jira" ],
+  devOps: [ "AWS", "Azure", "Terraform", "Docker", "DockerComposer" ],
+  soonToLearn: [ "Relational and No-Relational DB theory in depth", "Kubernetes", "Jenkins" ],
   residence: "Argentina",
   contact: { mail: "srgrecco93@gmail.com" }
 })
+
+me.prototype.firstJob = {
+  company: "Repuestos Ya",
+  description: "Full time Backend Developer (Jr)",
+  career: {
+    start: "2021-12-01",
+    end: undefined,
+    currentlyWorking: true,
+  },
+}
+
+
+// I ommited Dev definition
 ```
 
 <br>
