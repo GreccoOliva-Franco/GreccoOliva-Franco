@@ -3,7 +3,6 @@
 ### About me
 
 ```js
-import { DEFAULT_LANGUAGE, LANGUAGES } from "src/constants/index.ts"
 import { Dev } from "src/dev/index.ts";
 
 const me: Dev = new Dev({
