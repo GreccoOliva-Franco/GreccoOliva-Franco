@@ -7,10 +7,10 @@ import { Dev } from "src/dev/index.ts";
 
 const me: Dev = new Dev({
   fullname: "Grecco Oliva, Franco",
-  education: [ "Mechanical engineer", "Full Stack (Jr)", "Cloud DevOps (Trainee)" ],
+  education: [ "Mechanical engineer", "Backend (Jr)", "Frontend (Trainee)", "Cloud DevOps (Trainee)" ],
   code: {
-    front: [ "HTML", "CSS", "JavaScript", { framework: "React" } ],
     back: [ "NodeJS", { framework: "NestJs (express)" } ],
+    front: [ "HTML", "CSS", "JavaScript", { framework: "React" } ],
     database: [ "MongoDB", "MySQL" ],
     dataAnalysis: [ "Python", "Matlab" ],
   },
