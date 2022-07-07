@@ -13,9 +13,14 @@ const me: Dev = new Dev({
       languages: [ "Javascript", "Typescript" ],
       frameworks: [ "Express.Js", "Nest.Js" ],
     },
-    front: [ "HTML", "CSS", "JavaScript", { framework: "React" } ],
-    databases: [ "MongoDB", "MySQL" ],
-    dataAnalysis: [ "Python", "Matlab" ],
+    front: frameworks: [ "React.Js" ],
+    databases: {
+      relational: [ "MySQL" ],
+      no_relational: [ "MongoDB" ],
+    },
+    dataAnalysis: {
+      languages: [ "Python", "Matlab" ],
+    },
   },
   tools: [ "Git", "Github", "Postman" ],
   teamworkTools: [ "Jira" ],
