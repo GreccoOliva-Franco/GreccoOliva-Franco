@@ -9,12 +9,15 @@ const me: Dev = new Dev({
   fullname: "Grecco Oliva, Franco",
   education: [ "Mechanical engineer", "Backend (Jr)", "Frontend (Trainee)", "Cloud DevOps (Trainee)" ],
   code: {
-    back: [ "NodeJS", { framework: "NestJs (express)" } ],
+    back: { 
+      languages: [ "Javascript", "Typescript" ],
+      frameworks: [ "Express.Js", "Nest.Js" ],
+    },
     front: [ "HTML", "CSS", "JavaScript", { framework: "React" } ],
-    database: [ "MongoDB", "MySQL" ],
+    databases: [ "MongoDB", "MySQL" ],
     dataAnalysis: [ "Python", "Matlab" ],
   },
-  tools: [ "TypeScript", "Git", "Github", "Postman" ],
+  tools: [ "Git", "Github", "Postman" ],
   teamworkTools: [ "Jira" ],
   devOps: [ "AWS", "Azure", "Terraform", "Docker", "DockerComposer" ],
   soonToLearn: [ "Relational and No-Relational DB theory in depth", "Kubernetes", "Jenkins" ],
