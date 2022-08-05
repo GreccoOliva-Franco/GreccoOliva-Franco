@@ -7,38 +7,46 @@ import { Dev } from "src/dev/index.ts";
 
 const me: Dev = new Dev({
   fullname: "Grecco Oliva, Franco",
-  education: [ "Mechanical engineer", "Backend (Jr)", "Frontend (Trainee)", "Cloud DevOps (Trainee)" ],
-  code: {
+  education: [ "Mechanical engineer", "Backend (SSR)", "Frontend (JR)", "Cloud DevOps (Trainee)" ],
+  codingSkills: {
     back: { 
       languages: [ "Javascript", "Typescript" ],
       frameworks: [ "Express.Js", "Nest.Js" ],
     },
-    front: frameworks: [ "React.Js" ],
+    front: {
+      frameworks: [ "React.Js" ]
+    },
     databases: {
       relational: [ "MySQL" ],
       no_relational: [ "MongoDB" ],
     },
+    testing: [
+      {
+        libraries: [ "Jest" ],
+        languages: [ "Javascript", "Typescript" ],
+      }
+    ],
+      
     dataAnalysis: {
       languages: [ "Python", "Matlab" ],
     },
   },
-  tools: [ "Git", "Github", "Postman" ],
+  tools: [ "Git", "Git Flow", "Github", "GitLab", "Postman" ],
   teamworkTools: [ "Jira" ],
   devOps: [ "AWS", "Azure", "Terraform", "Docker", "DockerComposer" ],
-  soonToLearn: [ "Relational and No-Relational DB theory in depth", "Kubernetes", "Jenkins" ],
   residence: "Argentina",
   contact: { mail: "srgrecco93@gmail.com" }
 })
 
-me.prototype.firstJob = {
+me.addJob({
   company: "Repuestos Ya",
-  description: "Full time Backend Developer (Jr)",
+  description: "Full-time Backend Developer (SSR)",
   career: {
     start: "2021-12-01",
     end: undefined,
     currentlyWorking: true,
   },
-}
+})
 
 
 // I ommited Dev definition
