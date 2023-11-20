@@ -27,6 +27,7 @@ It's just for simplicity. It's as simple as imagining a stack of skills and tool
 In my case I've worked with many technologies and intend to add some more.
 
 Let's start with programming languages in chronological order: MatLab, C, Javascript, Typescript, PHP
+
 I'm mostly oriented to backend so I've worked with Express, NestJs, NextJs (yes, backend too) and Laravel as backend frameworks. I've worked with relational databases (SQL) and its ORM's like MySQL, PostgreSQL, OracleDB with Sequelize, TypeORM, Prisma, Eloquent and non-relational databases (NO-SQL) like MongoDB with ODM's Mongoose
 
 Some useful knowledge in infrastructure tools like Docker, AWS (EC2 and S3), Vercel
