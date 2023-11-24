@@ -20,7 +20,7 @@ I've always liked to work in teams, achieve huge things, brainstorming ideas and
 
 I have 2 years of working experience as a software developer, I would say it's not even a long time but we all experience the same thing daily: frustration. I had to learn to control it and learn from it. I still do, in fact.
 
-## What is you "Stack"? Why do they call it that way?
+## What is your "Stack"? Why do they call it that way?
 
 It's just for simplicity. It's as simple as imagining a stack of skills and tools that you've learned or worked with. 
 
